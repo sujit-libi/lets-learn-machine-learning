@@ -64,6 +64,15 @@
 </table>
 
 *Accuracy Rate (AR) and Error Rate (ER)* can be calculated as:
-$
-    AR = \frac{Correct}{Total}
-$
+
+**Accuracy Rate (AR)**
+- `AR = Correct/Total`
+- `(TN + TP)/Total`
+- `(43 + 41)/100`
+- `84%`
+
+**Error Rate (ER)**
+- `ER = Incorrect/Total`
+- `(FP + FN)/Total`
+- `(4 + 12)/100`
+- `16%`
