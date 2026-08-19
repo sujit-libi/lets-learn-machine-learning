@@ -5,11 +5,12 @@
 <table>
   <thead>
     <tr>
-      <th rowspan="4">Actual</th>
-      <th colspan="4">Prediction</th>
+      <th rowspan=""></th>
+      <th colspan="3">Prediction</th>
     </tr>
     <tr>
-      <th>" "</th>
+      <th rowspan="3"></th>
+      <th></th>
       <th>Negative (-ve)</th>
       <th>Positive (+ve)</th>
     </tr>
@@ -20,7 +21,7 @@
       <td>True Negative (-ve)</td>
       <td>False Postive (+ve)</td>
     </tr>
-      <tr>
+    <tr>
       <td>Positive (+ve)</td>
       <td>False Negative (-ve)</td>
       <td>True Positive (+ve)</td>
