@@ -5,19 +5,25 @@
 <table>
   <thead>
     <tr>
-      <th rowspan="2">Team</th>
-      <th colspan="2">Quarterly Results</th>
+      <th rowspan="4">Actual</th>
+      <th colspan="4">Prediction</th>
     </tr>
     <tr>
-      <th>Q1</th>
-      <th>Q2</th>
+      <th>" "</th>
+      <th>Negative (-ve)</th>
+      <th>Positive (+ve)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Alpha</td>
-      <td>Success</td>
-      <td>Success</td>
+      <td>Negative (-ve)</td>
+      <td>True Negative (-ve)</td>
+      <td>False Postive (+ve)</td>
+    </tr>
+      <tr>
+      <td>Positive (+ve)</td>
+      <td>False Negative (-ve)</td>
+      <td>True Positive (+ve)</td>
     </tr>
   </tbody>
 </table>
