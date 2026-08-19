@@ -29,6 +29,13 @@
   </tbody>
 </table>
 
+- False Positive: Type I Error
+  It is not much dangerous. For example if patient go for diagnosis. And result came out for suffering from some diseases then its false positive he can test in another hospital to confirm the result and based on that doctor can recommend him some medicine to take or not.
+- False Negative: Type II Error
+  It is kind of dangerous. For example if patient go for diagnosis. And result came out normal even if he is suffering from diseases then he might think everything is alright and might not check again and doctor might not recomment him any medicine it can be harmful. So it is False Negative
+
+**For Example:** Taking 100 patient
+
 <table>
   <thead>
     <tr>
@@ -45,13 +52,18 @@
     </tr>
     <tr>
       <td>Negative (-ve)</td>
-      <td>True Negative (-ve)</td>
-      <td>False Positive (+ve)</td>
+      <td>43</td>
+      <td>12</td>
     </tr>
     <tr>
       <td>Positive (+ve)</td>
-      <td>False Negative (-ve)</td>
-      <td>True Positive (+ve)</td>
+      <td>4</td>
+      <td>41</td>
     </tr>
   </tbody>
 </table>
+
+*Accuracy Rate (AR) and Error Rate (ER)* can be calculated as:
+$
+    AR = \frac{Correct}{Total}
+$
